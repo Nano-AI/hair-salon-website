@@ -25,10 +25,8 @@ function NavBar() {
   function update() {
     if (scrollY?.prev > scrollY?.current) {
       setHidden(false);
-      console.log("visible")
     } else if (scrollY?.current > 100 && scrollY?.current > scrollY?.prev) {
       setHidden(true);
-      console.log("hidden")
     }
   }
 
