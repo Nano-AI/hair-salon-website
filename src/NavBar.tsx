@@ -5,8 +5,8 @@ import { motion, useViewportScroll } from 'framer-motion';
 import { useState, useEffect } from "react";
 
 var pages = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
+  { name: "Home", href: "/" },
+  { name: "About", href: "/about" },
   { name: "Services", href: "#services" },
   { name: "Extensions", href: "#extensions" },
   { name: "Bridal", href: "#bridal" },
@@ -36,7 +36,7 @@ function NavBar() {
 
   return (
     <motion.div className="fixed-top" variants={variants} animate={hidden ? "hidden" : "visible"} transition={{ ease: [0.1, 0.25, 0.3, 1], duration: 0.6 }}>
-      <Navbar expand="lg" className="bg-body-tertiary" sticky="top" fixed="top">
+      <Navbar expand="lg" className="bg-primary bg-navbar" sticky="top" fixed="top">
         <Container className="my-2">
           <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

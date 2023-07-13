@@ -1,0 +1,12 @@
+@import 'bootstrap/scss/bootstrap.scss';
+$theme-colors: (
+  "primary": #70877F,
+  "secondary": #F4E9CD,
+  "dark": #312F2F
+);
+
+$primary: map-get($theme-colors, "primary");
+
+.bg-navbar {
+  background-color: rgba($primary, 0.5) !important;
+}
