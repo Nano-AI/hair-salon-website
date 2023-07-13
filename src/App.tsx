@@ -1,0 +1,113 @@
+import './App.css'
+import NavBar from './NavBar'
+
+function App() {
+  return (
+    <>
+      <NavBar />
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+      <p>test <br /></p>
+    </>
+  )
+}
+
+export default App
