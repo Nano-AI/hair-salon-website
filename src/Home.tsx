@@ -49,7 +49,6 @@ function Home() {
                   autoStart: true,
                   loop: true
                 }}
-                className="d-inline"
               />
             </p>
           </div>

@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.tsx'
 import NavBar from './NavBar.tsx'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import About from './About.tsx';
