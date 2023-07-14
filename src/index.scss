@@ -1,8 +1,11 @@
-@import 'bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+
 $theme-colors: (
   "primary": #70877F,
   "secondary": #F4E9CD,
-  "dark": #312F2F
+  "dark": #312F2F,
+  "light": #F1FAEE,
+  "red": #E26D5A
 );
 
 $primary: map-get($theme-colors, "primary");
@@ -10,3 +13,21 @@ $primary: map-get($theme-colors, "primary");
 .bg-navbar {
   background-color: rgba($primary, 0.5) !important;
 }
+
+.img-logo {
+  height: 3rem;
+}
+
+.invert {
+  filter: invert(1);
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5) !important;
+}
+
+body {
+  font-family: 'Belleza', sans-serif !important;
+}
+
+@import 'bootstrap/scss/bootstrap.scss';
