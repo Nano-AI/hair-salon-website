@@ -14,4 +14,6 @@ export default defineConfig(({ command }) => {
   }
 
   return config;
-})
+});
+    // "dev": "set PUBLIC_URL=http://localhost:5173/ && set BASE=/ && vite",
+    // "build": "set PUBLIC_URL=https://nano-ai.github.io/karina-salon/ && set BASE=/karina-salon/ && tsc && vite build",

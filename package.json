@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "set PUBLIC_URL=http://localhost:5173/ && set BASE=/ && vite",
-    "build": "set PUBLIC_URL=https://nano-ai.github.io/karina-salon/ && set BASE=/karina-salon/ && tsc && vite build",
+    "dev": "vite",
+    "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
@@ -14,6 +14,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.14.1",
+    "react-router-hash-link": "^2.4.3",
     "sass": "^1.63.6",
     "typewriter-effect": "^2.20.1"
   },

@@ -2,6 +2,8 @@
 
 $theme-colors: (
   "primary": #70877F,
+  "primary-25": #B8C3BF,
+  "primary-75": #384440,
   "secondary": #F4E9CD,
   "dark": #312F2F,
   "light": #F1FAEE,
@@ -24,6 +26,23 @@ $primary: map-get($theme-colors, "primary");
 
 .overlay {
   background: rgba(0, 0, 0, 0.5) !important;
+}
+
+.icon-lg {
+  font-size: 4.5rem !important;
+}
+
+.icon-md {
+  font-size: 3.5rem !important;
+}
+
+.icon-sm {
+  font-size: 1.5rem !important;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {

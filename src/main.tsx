@@ -1,11 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import NavBar from './NavBar.tsx'
+import NavBar from './components/NavBar.tsx'
 import { Route, Routes, BrowserRouter } from 'react-router-dom';
-import About from './About.tsx';
-import Home from './Home.tsx';
+import pages from './Data.tsx';
 import './index.scss'
-import Footer from './Footer.tsx';
+import Footer from './components/Footer.tsx';
 // import "bootstrap/scss/bootstrap.scss";
 
 
@@ -14,8 +13,11 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     <BrowserRouter basename={import.meta.env.BASE_URL}>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
+        {pages.map((item) => {
+          return (
+            <Route path={item.href} element={item.component} key={item.name} />
+          );
+        })}
       </Routes>
       <Footer />
     </BrowserRouter>

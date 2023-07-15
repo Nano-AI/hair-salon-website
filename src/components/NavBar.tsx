@@ -3,8 +3,8 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { motion, useViewportScroll } from 'framer-motion';
 import { useState, useEffect } from "react";
-import Logo from './assets/logo_notext.png'
-import pages from './Data';
+import Logo from '../assets/logo_notext.png'
+import pages from '../Data';
 import { Link } from 'react-router-dom';
 
 function NavBar() {
@@ -36,11 +36,11 @@ function NavBar() {
           <Navbar.Brand href="#home"><img src={Logo} className="img-logo invert" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" className="justify-items-end justify-end">
-            <Nav className="me-auto">
+            <Nav className="me-auto w-100">
               {pages.map((item) => {
                 return (
-                  <motion.div key={item.name} whileHover={{ scale: 1.2 }}>
-                    <Link to={item.href} ><p className="h4 p-0 m-0 text-light mx-3">{item.name}</p></Link>
+                  <motion.div key={item.name} whileHover={{ scale: 1.2 }} className={item?.right ? "ms-lg-auto ms-md-auto ms-sm-none" : ""}>
+                    <Link to={item.href} className="text-decoration-none "><p className="h4 p-0 m-0 text-light mx-3">{item.name}</p></Link>
                   </motion.div>
                 );
               })}

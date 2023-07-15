@@ -21,8 +21,17 @@ When building, make sure to change the base in `vite.config.ts` to the URL of yo
 For example, a website being hosted on `https://example.com/BASE_URL/` would look like this:
 
 ```ts
-export default defineConfig({
-  base: "/BASE_URL/",
-  plugins: [react()],
+// https://vitejs.dev/config/
+export default defineConfig(({ command }) => {
+  const config = {
+    plugins: [react()],
+    base: '/',
+  }
+
+  if (command !== 'serve') {
+    config.base = '/BASE_URL/';
+  }
+
+  return config;
 })
 ```
