@@ -36,6 +36,8 @@ function Home() {
     return scrollY.onChange(() => update());
   });
 
+  console.log(import.meta.env)
+
   return (
     <>
       <div className="vh-100 w-100" style={imageStyle}>

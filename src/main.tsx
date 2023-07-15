@@ -11,7 +11,7 @@ import Footer from './Footer.tsx';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/karina-salon/">
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
