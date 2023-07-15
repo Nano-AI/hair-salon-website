@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import NavBar from './NavBar.tsx'
-import { RouterProvider, createHashRouter } from 'react-router-dom';
+import { Router, Route, createHashRouter, Routes, BrowserRouter } from 'react-router-dom';
 import About from './About.tsx';
 import Home from './Home.tsx';
 import './index.scss'
@@ -21,8 +21,13 @@ const router = createHashRouter([
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <NavBar />
-    <RouterProvider router={router} />
-    <Footer />
+    <BrowserRouter basename="/karina-salon/">
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   </React.StrictMode>,
 )

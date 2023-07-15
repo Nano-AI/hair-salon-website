@@ -40,6 +40,5 @@
     "react-dom": "^18.2.0",
     "typescript": "^5.0.2",
     "vite": "^4.4.0"
-  },
-  "homepage": "/karina-salon/#"
+  }
 }

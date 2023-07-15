@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import pages from "./Pages";
 
 export default function Footer() {
@@ -23,7 +24,7 @@ export default function Footer() {
                   return (
                     <span key={item.name}>
                       <li>
-                        <a href={item.href} className="text-secondary">{item.name}</a>
+                        <Link to={item.href} className="text-secondary">{item.name}</Link>
                       </li>
                     </span>
                   );

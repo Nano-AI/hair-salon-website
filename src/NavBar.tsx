@@ -40,7 +40,7 @@ function NavBar() {
               {pages.map((item) => {
                 return (
                   <motion.div key={item.name} whileHover={{ scale: 1.2 }}>
-                    <Nav.Link className="mx-2"><p className="h4 p-0 m-0 text-light"><Link to={item.href}>{item.name}</Link></p></Nav.Link>
+                    <Link to={item.href} ><p className="h4 p-0 m-0 text-light mx-3">{item.name}</p></Link>
                   </motion.div>
                 );
               })}
