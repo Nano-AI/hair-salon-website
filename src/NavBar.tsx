@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import { motion, useViewportScroll } from 'framer-motion';
 import { useState, useEffect } from "react";
 import Logo from './assets/logo_notext.png'
-import pages from './Pages';
+import pages from './Data';
 import { Link } from 'react-router-dom';
 
 function NavBar() {

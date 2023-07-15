@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import pages from "./Pages";
+import pages from "./Data";
 
 export default function Footer() {
   return (
