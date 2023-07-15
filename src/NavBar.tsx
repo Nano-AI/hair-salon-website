@@ -5,6 +5,7 @@ import { motion, useViewportScroll } from 'framer-motion';
 import { useState, useEffect } from "react";
 import Logo from './assets/logo_notext.png'
 import pages from './Pages';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
   const [hidden, setHidden] = useState(false);
@@ -39,7 +40,7 @@ function NavBar() {
               {pages.map((item) => {
                 return (
                   <motion.div key={item.name} whileHover={{ scale: 1.2 }}>
-                    <Nav.Link href={item.href} className="mx-2"><p className="h4 p-0 m-0 text-light">{item.name}</p></Nav.Link>
+                    <Nav.Link className="mx-2"><p className="h4 p-0 m-0 text-light"><Link to={item.href}>{item.name}</Link></p></Nav.Link>
                   </motion.div>
                 );
               })}
