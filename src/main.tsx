@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import NavBar from './NavBar.tsx'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
 import About from './About.tsx';
 import Home from './Home.tsx';
 import './index.scss'
 import Footer from './Footer.tsx';
 // import "bootstrap/scss/bootstrap.scss";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Home />
@@ -17,7 +17,7 @@ const router = createBrowserRouter([
     path: "/about",
     element: <About />
   }
-])
+]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
