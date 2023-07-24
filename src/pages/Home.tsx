@@ -41,7 +41,7 @@ function Home() {
     return scrollY.onChange(() => update());
   });
 
-  console.log(import.meta.env)
+  // console.log(import.meta.env)
 
   return (
     <>

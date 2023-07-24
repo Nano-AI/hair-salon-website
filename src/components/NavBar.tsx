@@ -30,7 +30,7 @@ function NavBar() {
   })
 
   return (
-    <motion.div className="fixed-top" variants={variants} animate={hidden ? "hidden" : "visible"} transition={{ ease: [0.1, 0.25, 0.3, 1], duration: 0.6 }}>
+    <motion.div id="website-navbar" className="fixed-top" variants={variants} animate={hidden ? "hidden" : "visible"} transition={{ ease: [0.1, 0.25, 0.3, 1], duration: 0.6 }}>
       <Navbar expand="lg" className="bg-primary bg-navbar" sticky="top" fixed="top">
         <Container className="my-2">
           <Navbar.Brand href="#home"><img src={Logo} className="img-logo invert" /></Navbar.Brand>
