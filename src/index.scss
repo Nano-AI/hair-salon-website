@@ -10,6 +10,21 @@ $theme-colors: (
   "red": #E26D5A
 );
 
+.overlay-text {
+  mix-blend-mode: difference;
+}
+
+.p-img {
+  width: 85vw;
+  height: 75vh;
+  // height: 150px;
+  position: relative;
+  object-fit: cover;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+}
+
 $primary: map-get($theme-colors, "primary");
 
 .bg-navbar {
