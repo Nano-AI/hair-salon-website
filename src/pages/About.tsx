@@ -1,8 +1,8 @@
 import { Container } from "@mui/material";
-import { Row, Carousel, CarouselItem } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 
 import Image1 from "../assets/about.jpg";
-import Image2 from "../assets/styling.jpg";
+// import Image2 from "../assets/styling.jpg";
 
 export default function About() {
 

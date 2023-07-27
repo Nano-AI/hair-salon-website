@@ -1,9 +1,9 @@
-import { useRef } from "react";
+// import { useRef } from "react";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 
 import Product from "../assets/product.jpg";
-import Room from "../assets/room.jpg";
-import Room2 from "../assets/room2.jpg";
+// import Room from "../assets/room.jpg";
+// import Room2 from "../assets/room2.jpg";
 import Styling from "../assets/styling.jpg";
 
 
