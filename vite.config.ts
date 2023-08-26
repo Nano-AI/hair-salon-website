@@ -10,7 +10,7 @@ export default defineConfig(({ command }) => {
   }
 
   if (command !== 'serve') {
-    config.base = '/karina-salon/';
+    config.base = '/hair-salon-website/';
   }
 
   return config;
